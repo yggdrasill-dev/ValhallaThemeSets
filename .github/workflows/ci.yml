@@ -1,0 +1,25 @@
+name: Build & Push
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: setup-msbuild
+        uses: microsoft/setup-msbuild@v1.1
+        with:
+          msbuild-architecture: x64
+
+      - name: Restore dependencies
+        run: nuget restore
+
+      - name: Pack
+        run: msbuild
