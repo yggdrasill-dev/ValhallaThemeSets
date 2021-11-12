@@ -1921,7 +1921,7 @@
       </Color>
       <Color Name="extension method name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE6386E" />
+        <Foreground Type="CT_RAW" Source="FFE6B238" />
       </Color>
       <Color Name="inline hints">
         <Background Type="CT_RAW" Source="FFC6DCC8" />
@@ -2716,6 +2716,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="SymbolLineClassificationFormat">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="deveroom.undefined_step">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
