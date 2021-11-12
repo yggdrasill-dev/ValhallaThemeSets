@@ -5505,7 +5505,7 @@
       </Color>
       <Color Name="extension method name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE6B238" />
+        <Foreground Type="CT_RAW" Source="FFFF00C1" />
       </Color>
       <Color Name="inline hints">
         <Background Type="CT_RAW" Source="FFE0D4C2" />
